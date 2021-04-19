@@ -346,7 +346,7 @@ a {
 .divig {
   height: 600px;
   width: 600px;
-  background-image: url("divig.PNG");
+  background-image: url("assets/divig.PNG");
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -357,7 +357,7 @@ a {
 .kitty {
   height: 600px;
   width: 600px;
-  background-image: url("cat.PNG");
+  background-image: url("assets/cat.PNG");
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -368,7 +368,7 @@ a {
 .mealories {
   height: 600px;
   width: 600px;
-  background-image: url("mealories.PNG");
+  background-image: url("assets/mealories.PNG");
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;

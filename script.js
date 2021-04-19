@@ -1,3 +1,5 @@
+// .addIndicators() // add indicators
+
 var scene = document.getElementById("scene");
 var parallax = new Parallax(scene);
 
@@ -14,7 +16,6 @@ new ScrollMagic.Scene({
 })
 
   .setClassToggle("#reveal1", "visible") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
 
 // SQUARE SECTION
@@ -28,7 +29,6 @@ new ScrollMagic.Scene({
 })
 
   .setClassToggle("#box1", "visible") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
 
 // square2
@@ -40,7 +40,6 @@ new ScrollMagic.Scene({
 })
 
   .setClassToggle("#box2", "visible") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
 
 //square3
@@ -52,7 +51,6 @@ new ScrollMagic.Scene({
 })
 
   .setClassToggle("#box3", "visible") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
 
 // PROJECT SECTION
@@ -65,7 +63,7 @@ new ScrollMagic.Scene({
 })
 
   .setClassToggle("#projet1", "visible") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
+
   .addTo(controller);
 
 //projet2
@@ -76,7 +74,6 @@ new ScrollMagic.Scene({
 })
 
   .setClassToggle("#projet2", "visible") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
 
 //projet3
@@ -87,5 +84,4 @@ new ScrollMagic.Scene({
 })
 
   .setClassToggle("#projet3", "visible") // add class toggle
-  .addIndicators() // add indicators (requires plugin)
   .addTo(controller);
