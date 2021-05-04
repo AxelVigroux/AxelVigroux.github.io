@@ -153,6 +153,7 @@ a {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 15%;
+  
 }
 
 .right-presentation {
@@ -585,7 +586,6 @@ a {
     display: flex;
     flex-direction: column;
     height: auto;
-    
   }
 
   .left-presentation {
