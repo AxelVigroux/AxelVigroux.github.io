@@ -190,25 +190,32 @@ a {
 
 
 
-.mail  {
+.contact  {
   display: flex;
-  flex-direction: row;
-  align-items: center; 
+  flex-direction: column;
+  align-items: flex-start; 
   margin-top: 20px; 
   
 }
 
-.mail a {
+.contact a {
   border-bottom: solid 3px #FFC25C;
   margin-right: 60px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
-.mail span {
+.contact span {
   padding-bottom: 4px;
 }
 
+.mail {
+  margin-bottom: 20px;
+}
 
+.mail a:nth-child(1){
+  padding-right: 35px;
+
+}
 /* SQUARE */
 
 .square {
