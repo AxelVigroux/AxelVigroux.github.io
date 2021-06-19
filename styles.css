@@ -308,6 +308,10 @@ a {
   padding-left: 15%;
 }
 
+.works-text p{
+  width: 60%;
+}
+
 .works-right {
   width: 30%;
   display: flex;
@@ -339,6 +343,8 @@ a {
 .projet p {
   color: #E9E9EB; 
   margin-left: 10px;
+  text-align: center;
+  font-size: 1.2em
 }
 
 .up-projet {
@@ -356,37 +362,31 @@ a {
   position: relative;
 }
 
-.divig {
+.picture {
   height: 600px;
   width: 600px;
-  background-image: url("assets/divig.PNG");
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
   transform: rotate(-10deg) translateY(50px) translateX(-30px); 
   
+}
+
+.divig {
+  background-image: url("assets/divig.PNG");
 }
 
 .kitty {
-  height: 600px;
-  width: 600px;
   background-image: url("assets/cat.PNG");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: rotate(-10deg) translateY(50px) translateX(-30px); 
-  
 }
 
-.mealories {
-  height: 600px;
-  width: 600px;
+.mealories { 
   background-image: url("assets/mealories.PNG");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: rotate(-10deg) translateY(50px) translateX(-30px); 
-  
+}
+
+
+.sunny {
+  background-image: url("assets/sunny.PNG");
 }
 
 .stay-tuned {
@@ -796,7 +796,7 @@ a {
   }
   .works-text {
     margin-left: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 10%;   
   }
 
   .works-right {
@@ -806,8 +806,11 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
     overflow: hidden;
-    padding-left: 15%;
-    
+    padding-left: 15%; 
+  }
+
+  .bot-projet {
+    text-align: center;
   }
 
   #projet1 {
