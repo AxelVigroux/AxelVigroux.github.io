@@ -395,6 +395,10 @@ a {
   
 }
 
+.epottery {
+  background-image: url("assets/epottery.PNG");
+  overflow: hidden;
+}
 .divig {
   background-image: url("assets/divig.PNG");
 }
