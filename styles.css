@@ -395,6 +395,11 @@ a {
   
 }
 
+.spotx {
+  background-image: url("assets/spotx.PNG");
+  overflow: hidden;
+}
+
 .epottery {
   background-image: url("assets/epottery.PNG");
   overflow: hidden;
